@@ -6,7 +6,7 @@ module.exports = buildSchema(`
           title: String!
           teacherId: String!
           description: String!
-          tag: [User!]
+          tag: [String!]
           date: String!
           creator: User!
           attachment: String

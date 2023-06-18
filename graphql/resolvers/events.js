@@ -29,6 +29,7 @@ module.exports = {
       tag: args.eventInput.tag,
       date: new Date(args.eventInput.date),
       creator: req.userId,
+      attachment: args.eventInput.attachment,
     });
 
     let createdEvent;

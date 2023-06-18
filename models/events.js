@@ -29,7 +29,7 @@ const eventSchema = new Schema({
     type: Schema.Types.ObjectId,
     ref: 'User',
   },
-  file: {
+  attachment: {
     type: String,
     required: true,
   },

@@ -9,7 +9,7 @@ module.exports = buildSchema(`
           tag: [User!]
           date: String!
           creator: User!
-          attachment: String!
+          attachment: String
         }
 
         type User{
@@ -33,7 +33,7 @@ module.exports = buildSchema(`
           description: String!
           tag: [String!]!
           date: String!
-          attachment: String!
+          attachment: String
         }
 
         input UserInput {

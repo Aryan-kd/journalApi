@@ -1,0 +1,6 @@
+{
+    "env": {
+        "PORT": 5050,
+        "MONGO_URI": "mongodb+srv://Aryan123:Aryan123@journal-app.duxorab.mongodb.net/"
+    }
+}
